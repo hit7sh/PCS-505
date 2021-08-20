@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+int comp, sw;
 int partition(vector<int>& A, int L, int R) {
     int piv = A[R];
     int i = L - 1;
