@@ -43,9 +43,9 @@ int main() {
         inv = 0;
         mergeSort(A, 0, n - 1);
         for (int i = 0; i < n; i++) {
-
+            cout << A[i] << ' ';
         }
-        cout << "Comparisions = " << comp << "\nInversions = " << inv << '\n';
+        cout << "\nComparisions = " << comp << "\nInversions = " << inv << '\n';
         comp = inv = 0;
     }
     return 0;
