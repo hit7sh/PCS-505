@@ -12,7 +12,7 @@ int main() {
     for (int j = 0; j < m; j++)
         cin >> B[j];
     vector<int> ans;
-    for (int i = 0, j = 0; i < n; i++) {
+    for (int i = 0, j = 0; i < n; i++, j++) {
         while (j < m && B[j] < A[i]) j++;
         if (j < m && A[i] == B[j])
             ans.push_back(A[i]);
