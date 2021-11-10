@@ -27,9 +27,9 @@ int main() {
       prev_end = end[i];
     }
   }
-  cout << "Number of Non conflicting activities: " << ans;
+  cout << "Number of Non conflicting activities: " << ans << '\n';
   cout << "List of selected Activities: ";
-  
+
   for (int i = 0; i < who.size(); i++) {
     if (i > 0) cout << ", ";
     cout << who[i];
