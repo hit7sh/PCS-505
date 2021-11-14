@@ -17,8 +17,7 @@ int main() {
   while (pq.size() > 1) {
     int f = pq.top(); pq.pop();
     int s = pq.top(); pq.pop();
-    // cout << f << " " << s << '\n';
-    // if (pq.size()) cout << pq.top() << '\n';
+    
     ans += f + s;
     pq.push(f + s);
   }
