@@ -14,7 +14,6 @@ int main() {
         cin >> k;
         int cur, prev = 1, comp = 0;
         for (cur = 1; cur < n; prev = cur, cur = min(n, cur << 1)) {
-            cout << prev << cur << '\n';
             if (cur == prev && prev == n) break;
             if (A[prev] <= k && ++comp && k <= A[cur] && ++comp) break;
         }
