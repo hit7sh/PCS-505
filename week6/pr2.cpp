@@ -35,10 +35,6 @@ int main() {
     }
   }
 
-  int from, to;
-  cin >> from >> to;
-  --from, --to;
-
   // assuming it is a connected graph
   
   vector<char> color(n);
